@@ -73,3 +73,29 @@ header .button a{
     letter-spacing: 3.7px;
     color: #FFFFFF;
 }
+nav{
+    border: 1px solid #E6E6E6;
+}
+nav .row {
+    align-items: center;
+    height: 65px;
+}
+nav .links{
+    display: flex;
+    justify-content:space-around;
+
+}
+nav a{
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+}
+nav a:hover{
+    color:#00A4E5 ;
+}
+
