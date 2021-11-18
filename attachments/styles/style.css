@@ -109,13 +109,16 @@ nav a:hover{
     letter-spacing: 2.30625px;
     color: #48555B;
 }
-.story hr{
-    margin: 0 auto;
+
+.story hr,
+.capabilities hr{
     width: 50px;
     border: 1px solid ;
     margin-top: 10px;
 }
-
+.story hr{
+    margin: 10px auto 0 auto ;
+}
 .blue{
     color:#00A4E5;
 }
@@ -124,7 +127,7 @@ nav a:hover{
 }
 .story-pic{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
     margin-top: 84px ;
 }
 .story .img{
@@ -139,6 +142,7 @@ nav a:hover{
     color: #FFFFFF;
     padding-top: 15px;
     padding-left: 14px;
+    margin-left: auto;
 }
 .story-pic .img:nth-child(1){
     background: url(../images/plan.jpg) no-repeat;
@@ -174,5 +178,48 @@ nav a:hover{
     letter-spacing: 0.1875px;
     color: #48555B;
 }
+.capabilities{
+    margin-top: 119px;
+}
+.capabilities h2{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+}
+.capabilities .text{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+}
 
+.capabilities .button{
+    display: flex;
+    justify-content: end;
 
+}
+.capabilities .button a{
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
