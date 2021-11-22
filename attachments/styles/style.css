@@ -206,6 +206,7 @@ nav a:hover{
     justify-content: end;
 
 }
+.newsletter .button a,
 .capabilities .button a,
 .get-in-touch .button a{
     width: 150px;
@@ -311,3 +312,96 @@ nav a:hover{
     color: #FFFFFF;
 
 }
+
+.newsletter .input-field{
+    padding-left: 16px;
+    margin-left: 50px;
+    width: 250px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    position: absolute;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.07px;
+    color: #48555B;
+
+}
+.newsletter .button{
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    }
+.contacts{
+    height: 240px;
+    background: #141A20;
+    padding-top: 42px;
+}
+.company,.links,.contactus h2{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.company img{
+    margin-top: 20px;
+    height: 20px;
+}
+
+.company .descr{
+    margin-top: 16px;
+    position: absolute;
+    width: 250px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+}
+
+.contactus .descr{
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.contacts ul{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.links h2{
+    width: 100%;
+}
+ .links a{
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+ }
+ .links ul{
+     margin-top: 10px;
+ }
+ .icons a{
+    margin: 0 12px;
+    filter: contrast(0%) grayscale(100%) brightness(2);
+
+ }
