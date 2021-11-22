@@ -227,20 +227,17 @@ nav a:hover{
 }
 .tabs{
     margin-top: 118px;
+
 }
-/* .tabs .col-4{
+.tabs .row{
     display: flex;
-    justify-content: center;
-} */
-.tab{
-    margin: 0 14px;
-    height: 330px;
+    justify-content: space-between;
+}
+.tabs .tab{
+    width: 295px;
     border: 1px solid #E6E6E6;
     padding: 38px 22px;
 }
-/* .tab:nth-child(-n+2){
-    padding-right: 28px;
-} */
 
 .tabs .title{
     margin-top: 25px;
@@ -398,10 +395,25 @@ nav a:hover{
     color: #FFFFFF;
  }
  .links ul{
-     margin-top: 10px;
+    margin-top: 10px;
  }
  .icons a{
     margin: 0 12px;
     filter: contrast(0%) grayscale(100%) brightness(2);
 
+ }
+ footer{
+    background: #171819;
+    height: 60px;
+ }
+ footer h3{
+    margin-top: 22px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
  }
