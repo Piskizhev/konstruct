@@ -361,6 +361,9 @@ hr{
     header .logo{
         margin-top: 15px;
     }
+    .logo img{
+        height: 0.9em;
+    }
     header .title{
         margin-top: 70px;
     }
@@ -393,7 +396,10 @@ hr{
         display: inline-flex;
     }
     .capabilities {
-        margin-top: 15px;
+        margin-top: 5px;
+    }
+    .capabilities hr{
+        margin-bottom: 0;
     }
     .capabilities .descr{
         padding: 15px;
@@ -401,9 +407,18 @@ hr{
     .capabilities .button{
         text-align: left;
     }
+    .capabilities .blocks{
+        margin-top: 10px;
+    }
+    .capabilities .block{
+        margin-top: 2px;
+    }
     .get-in-touch{
         margin: 0;
-        min-height: 400px;
+        min-height: 250px;
+    }
+    .get-in-touch .title{
+        margin-top: 50px;
     }
     .newsletter .title{
         justify-content: center;
