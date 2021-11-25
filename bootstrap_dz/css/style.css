@@ -1,0 +1,263 @@
+
+header{
+    background: url(../images/bg.jpg) center center no-repeat;
+    text-align: center;
+    height: 769px;
+}
+header .logo{
+    margin-top: 48px;
+}
+header .title{
+    margin-top: 318px;
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+    color: #FFFFFF;
+}
+header .subtitle{
+    margin-top: 21px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+header .btn{
+    margin-top: 221px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.7px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+nav .nav-link{
+    color: #48555B;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+    
+}
+nav .nav-link:hover{
+    color: #00A4E5;;
+}
+nav .dark-logo{
+    display: flex;
+    align-items: center;
+}
+
+.story h2,
+.capabilities h2{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+}
+.story h2{
+    text-align: center;
+
+}
+hr{
+    margin-top: 2px;
+    width: 50px;
+    height: 2px;
+    background-color:#00A4E5 ;
+    border: none;
+}
+.story .subtitle{
+    margin-top: 60px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+    }
+ .story span{
+    color: #00A4E5;
+ }
+
+ .story .text{
+     margin-top: 30px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+ }
+ .story-pic{
+     margin-top: 84px;
+      padding-left: 77px; }
+ .story-pic img{
+     width: 140px;
+ }
+ .capabilities{
+     margin-top: 119px;
+ }
+
+.capabilities .descr{
+    padding-left: 155px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+
+}
+.capabilities .button{
+    text-align: right;
+}
+.capabilities .btn{
+    border: 0px;
+    border-radius: 0px;
+    background: #00A4E5;
+    width: 150px;
+    height: 40px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.blocks{
+    margin-top: 76px;
+}
+.capabilities .block{
+    padding: 38px 23px;
+    max-height: 330px;
+    border: 1px solid #E6E6E6;
+}
+.block .subtitle{
+    margin-top: 25px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+}
+.block .block-descr{
+    margin-top: 13px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+.block h2{
+    font-size: 16px;
+}
+.get-in-touch{
+    background: url(../images/get-bg.jpg) center center no-repeat;
+    min-height: 498px;
+    margin-top: 115px;
+}
+.get-in-touch .title{
+    margin-top: 120px;
+
+}
+.get-in-touch .title p{
+    width: 350px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    text-align: center;
+    margin: 0 auto;
+}
+.get-in-touch .block{
+    margin-top: 35px;
+}
+.get-in-touch .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.get-in-touch .btn{
+    border-radius: 0;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+
+}
+.newsletter{
+    background:  #171819;
+    min-height: 100px;
+}
+.newsletter .title{
+    margin-top: 35px;
+    display: flex;
+    justify-content: end;
+
+}
+.title p{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.newsletter .input{
+    margin-top: 30px;
+    display: inline-flex;
+}
+.newsletter .input-field{
+    padding-left: 16px;
+    margin-left: 35px;
+    width: 250px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.07px;
+    color: #48555B;
+
+}
+.newsletter .btn{
+    border-radius: 0;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+
+}
